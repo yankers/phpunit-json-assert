@@ -1,17 +1,21 @@
 {
-    "name": "helmich/phpunit-json-assert",
+    "name": "yankers/phpunit-json-assert",
     "description": "PHPUnit assertions for JSON documents",
     "license": "MIT",
     "authors": [
         {
             "name": "Martin Helmich",
             "email": "m.helmich@mittwald.de"
+        },
+        {
+            "name": "Alexei Yanochkin",
+            "email": "yanker.developer@gmail.com"
         }
     ],
     "require": {
         "flow/jsonpath": "^0.3.1",
         "phpunit/phpunit": ">=6.0",
-        "justinrainbow/json-schema": "^2.0",
+        "justinrainbow/json-schema": "~5.0",
         "php": ">=7.0"
     },
     "require-dev": {
